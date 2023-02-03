@@ -283,7 +283,7 @@
   				<h2 class="text-center h2_f1"><b>Send me an E-mail:</b></h2>
   			</div>
   			<div class="flex-row justify-content-center align-items-center mt-3 px-5">
-  				<form action="https://formsubmit.co/wongzemin@gmail.com" method="POST" onsubmit="return validationCheck();">
+  				<form action="https://formsubmit.co/wongzemin@gmail.com" name="form" method="POST" onsubmit="return validationCheck();">
       				<div class="row p-1">
       					<div class="col-md-6 form-group">
 	      					<label for="firstName" class="form-label">First Name</label>
@@ -311,7 +311,7 @@
       				<div class="row p-1">
       					<div class="col-md-12 form-group">
 	      					<label for="message" class="form-label">Message</label>
-	      					<textarea class="form-control" id="message" placeholder="Message" rows="4" name="message"></textarea>
+	      					<textarea class="form-control" id="message" placeholder="Message" rows="4" name="message" form="form"></textarea>
 	      					<div class="error-hint hidden">error</div>    				
 	      				</div>
       				</div>
