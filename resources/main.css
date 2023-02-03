@@ -1,0 +1,165 @@
+@charset "ISO-8859-1";
+
+body::before{
+	display: block;
+	content: '';
+	height: 56px;
+}
+
+.navbar-brand{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand:hover{
+	transform: scale(1.01);
+	color: #7C8034;
+}
+
+.nav-item{
+	font-family: 'Raleway', sans-serif;
+}
+
+#welcome{
+	background-image: url('image/Software Engineer.png');
+	height: 65vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.h1_f1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+}
+
+.h1_f2{
+	font-family: Haettenschweiler, Impact, fantasy;
+	font-size: 1.35rem;
+	color: #B15533;
+}
+
+.h2_f1{
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 2rem;
+	color: #7C8034;
+}
+
+.h2_f2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #8B9177;
+}
+
+.h3_f1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25rem;
+	color: #747B5C;
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #B15551;
+}
+
+.h4_f1{
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 1.5rem;
+	color: white;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.15rem;
+	color: 	#431C1F;
+}
+
+.p_f1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	color: 	#431C1F;
+}
+
+.p_f2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.85rem;
+	color: 	white;
+}
+
+.copyright{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.75rem;
+}
+
+img.align-center {
+	display: block;
+	margin: 0px auto;
+}
+
+img.regular {
+	width: 200px;
+	height: 225px;
+}
+
+.accordion .accordion-button{
+	background-color: #E2D4BA;
+	box-shadow: none;
+}
+
+.accordion .accordion-button:hover{
+	background-color: #EFC442;
+	transform: scale(1.01);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #EFC442;
+	transform: scale(1.01);
+}
+
+.accordion .accordion-item{
+	background-color: white;
+	border-bottom: 5px solid #EFC442;
+}
+
+.form-label{
+	font-family: 'Raleway', sans-serif;
+	color: 	#431C1F;	
+}
+
+button{
+	font-family: 'Raleway', sans-serif;
+	color: 	#431C1F;	
+}
+
+input.invalid{
+	border: 1px solid red;
+}
+
+textarea.invalid{
+	border: 1px solid red;
+}
+
+.error-hint{
+	color: red;
+}
+
+.hidden{
+	display: none;
+}
+
+.form-group .form-control{
+	box-shadow: none;
+}
+
+.social-media-icons{
+	color: white;
+	width: 25px;
+	height: 25px;
+}
+
+.social-media-icons:hover{
+	color: #EFC442;
+	transform: scale(1.1);
+}
